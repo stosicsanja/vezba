@@ -1,0 +1,149 @@
+<html>
+    <head>
+<link rel="stylesheet" href="table img.css">
+    </head>
+    <body>
+<form action="" method="GET">
+<label for="username" >Username</label>
+    <input type="text" name="username" id="username">
+<br>
+<br>
+    <label for="password">Password</label>
+    <input type="password" name="password" id="password"
+    minlength="8" placeholder="Must be at least 8 character long">
+    <a href="forgot password.html">Reset password</a>
+<br>
+<br>
+<h2>What is your favourite subject?</h2> 
+
+<input type="radio" name="subject1"  id="math" value="math" > 
+<label for="math">Math</label>
+
+
+<input type="radio" name="subject1" id="english" value="english"> 
+<label for="english">English</label>
+
+
+<input type="radio" name="subject1" id="ecology" value="ecology">
+<label for="ecology">Ecology</label>
+<br>
+<br>
+<h2>What is your favourite subject?</h2>
+<p>You can check more answers
+</p>
+<br>
+<label for="math">Math</label>
+<input type="checkbox" id="math" value="math"> 
+<label for="english">English</label>
+<input type="checkbox" id="english" value="english">
+<label for="ecology">Ecology</label>
+<input type="checkbox"id="ecology" value="ecology">
+<br>
+<br>
+
+<h3>Tell us a little more about your favorite subject</h3>
+<textarea name="comments" id="" cols="20" rows="10">Insert some long text..</textarea> 
+<br>
+<br>
+<h4>Favorite Subject</h4>
+      <select name="favsub" id="favsub" type="radio" >
+        <option type="radio"value="math">Math</option>
+        <option type="radio"value="english">Engish</option>
+        <option type="radio"value="ecology">Ecology</option>
+        </select>
+
+        <label for="date">When you started school</label>
+      <input type="date" name="started" max="2022-10-08" />
+
+</form>
+<h1>Then VS Now</h1>
+<form action="">
+    <h2>Then</h2>
+    <label for="user-image">Upload your image</label>
+    <br>
+    <input
+        type="image"
+        src="/images.jpg">
+        <br>
+    
+<h3>Tell us a little more about this period</h3>
+<textarea name="comments" id="" cols="20" rows="10" placeholder="Insert some long text.."></textarea> 
+<br>
+<h2>Now</h2>
+<label for="user-image">Upload your image</label>
+    <input
+        type="image"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYzMjpWQihYRK507U7CbsfMGEXO8b7XRmXTA&usqp=CAU">
+        <br>
+<h3>Tell us a little more about this period</h3>
+<textarea name="comments" id="" cols="20" rows="10" placeholder="Insert some long text.."></textarea> 
+<br>
+<button type="submit">Send</button>
+<button type="reset">Clear input</button>
+<input
+        type="image"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHVTKXFbNA6GuDpq7gefbvX4AeIGofq5Rthw&usqp=CAU"
+      >
+
+</form>
+<h2>Personal data</h2>
+
+<form action="">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" placeholder="Enter your name">
+        <br>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="Enter your email">
+        <br>
+        <label for="phone">Phone number</label>
+        <input type="number" name="number"  id="number" placeholder="Enter your phone number" >
+        <br>
+        <hr>
+<h2>Location</h2>
+<label for="city">City</label>
+<input type="text" name="city" id="city" placeholder="Enter your city">
+<br>
+<label for="street">Street</label>
+<input type="text" name="street" id="street" placeholder="Enter your street">
+<br>
+<label for="streetnumber">Street number</label>
+<input type="number" name="streetnumber" id="streetnumber" placeholder="Enter your street number">
+
+<br>
+<hr>
+<h2>Event info</h2>
+<select name="event" id="event">
+    <option value="birthday">Birthday</option>
+    <option value="wedding" selected >Wedding</option>
+    <option value="company">Company</option>
+</select>
+<br>
+<label for="guests">Number of expected guests</label>
+<input type="number" name="guests" id="guests" placeholder="Enter your expected guests">
+</form>
+
+<!--ADDITIONAL ELEMENTS HOMEWORK-->
+
+<table>
+<th id="col-1">
+    <img src="/download.jpg" alt="">
+    <br>
+
+    <ul>
+        <li><a href="#">About</a></li>
+        <li><a href="#">More</a></li>
+        <li>  <a href="/contact.html">Contact</a></li>
+    </ul>
+
+</th>
+    <th id="col-2"> 
+        <label for="title">Some title</label>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/4q0izC4imeE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <label for="title">Title 2</label>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/mzPxo7Y6JyA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</th>
+      </table>
+    <script src="conditional.js"></script>
+</body>
+    </html>
+    
