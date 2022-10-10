@@ -1,0 +1,7 @@
+#col-1 {
+    width: 300px;
+    height: 250px;
+}
+#col-2 {
+    width: calc(100vh-300px);
+}
